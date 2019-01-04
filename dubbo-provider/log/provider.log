@@ -1,0 +1,127 @@
+ INFO 01-04 11:49:28(Launcher.java:21): 开始初始化core服务
+ INFO 01-04 11:49:28(AbstractApplicationContext.java:583): Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@72b6cbcc: startup date [Fri Jan 04 11:49:28 CST 2019]; root of context hierarchy
+ INFO 01-04 11:49:28(XmlBeanDefinitionReader.java:317): Loading XML bean definitions from class path resource [applicationContext.xml]
+ INFO 01-04 11:49:29(XmlBeanDefinitionReader.java:317): Loading XML bean definitions from class path resource [dubbo-provider.xml]
+ INFO 01-04 11:49:29(?:?): using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ WARN 01-04 11:49:30(SpringExtensionFactory.java:63):  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.56.1
+ WARN 01-04 11:49:30(SpringExtensionFactory.java:81):  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.56.1
+ WARN 01-04 11:49:30(AbstractApplicationContext.java:551): Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.pccw.dubbo.service.IUserService': Cannot resolve reference to bean 'userService' while setting bean property 'ref'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'userService' available
+ INFO 01-04 11:49:30(DubboShutdownHook.java:56):  [DUBBO] Run shutdown hook now., dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:49:30(AbstractRegistryFactory.java:64):  [DUBBO] Close all registries [], dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:50:21(Launcher.java:21): 开始初始化core服务
+ INFO 01-04 11:50:22(AbstractApplicationContext.java:583): Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@72b6cbcc: startup date [Fri Jan 04 11:50:22 CST 2019]; root of context hierarchy
+ INFO 01-04 11:50:22(XmlBeanDefinitionReader.java:317): Loading XML bean definitions from class path resource [applicationContext.xml]
+ INFO 01-04 11:50:22(XmlBeanDefinitionReader.java:317): Loading XML bean definitions from class path resource [dubbo-provider.xml]
+ INFO 01-04 11:50:22(?:?): using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ WARN 01-04 11:50:23(SpringExtensionFactory.java:63):  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.56.1
+ WARN 01-04 11:50:23(SpringExtensionFactory.java:81):  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:50:24(ServiceBean.java:129):  [DUBBO] The service ready on spring started. service: com.pccw.dubbo.service.IUserService, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:50:24(DubboShutdownHook.java:56):  [DUBBO] Run shutdown hook now., dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:50:24(AbstractRegistryFactory.java:64):  [DUBBO] Close all registries [], dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:52:53(Launcher.java:21): 开始初始化core服务
+ INFO 01-04 11:52:53(AbstractApplicationContext.java:583): Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@72b6cbcc: startup date [Fri Jan 04 11:52:53 CST 2019]; root of context hierarchy
+ INFO 01-04 11:52:53(XmlBeanDefinitionReader.java:317): Loading XML bean definitions from class path resource [applicationContext.xml]
+ INFO 01-04 11:52:54(XmlBeanDefinitionReader.java:317): Loading XML bean definitions from class path resource [dubbo-provider.xml]
+ INFO 01-04 11:52:54(?:?): using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ WARN 01-04 11:52:54(SpringExtensionFactory.java:63):  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.56.1
+ WARN 01-04 11:52:54(SpringExtensionFactory.java:81):  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:52:55(ServiceBean.java:129):  [DUBBO] The service ready on spring started. service: com.pccw.dubbo.service.IUserService, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:52:55(ServiceConfig.java:539):  [DUBBO] Export dubbo service com.pccw.dubbo.service.IUserService to local registry, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:52:55(ServiceConfig.java:491):  [DUBBO] Export dubbo service com.pccw.dubbo.service.IUserService to url dubbo://192.168.56.1:28080/com.pccw.dubbo.service.IUserService?anyhost=true&application=dubbodemo-provider&bean.name=com.pccw.dubbo.service.IUserService&bind.ip=192.168.56.1&bind.port=28080&dubbo=2.0.2&generic=false&interface=com.pccw.dubbo.service.IUserService&methods=login&pid=18344&revision=1.0-SNAPSHOT&side=provider&timeout=3000&timestamp=1546573975487, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:52:55(ServiceConfig.java:501):  [DUBBO] Register dubbo service com.pccw.dubbo.service.IUserService url dubbo://192.168.56.1:28080/com.pccw.dubbo.service.IUserService?anyhost=true&application=dubbodemo-provider&bean.name=com.pccw.dubbo.service.IUserService&bind.ip=192.168.56.1&bind.port=28080&dubbo=2.0.2&generic=false&interface=com.pccw.dubbo.service.IUserService&methods=login&pid=18344&revision=1.0-SNAPSHOT&side=provider&timeout=3000&timestamp=1546573975487 to registry registry://localhost:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbodemo-provider&dubbo=2.0.2&pid=18344&registry=zookeeper&timestamp=1546573975441, dubbo version: 2.6.5, current host: 192.168.56.1
+ WARN 01-04 11:52:55(QosProtocolWrapper.java:101):  [DUBBO] Fail to start qos server: , dubbo version: 2.6.5, current host: 192.168.56.1
+java.lang.NoClassDefFoundError: io/netty/channel/EventLoopGroup
+	at com.alibaba.dubbo.qos.protocol.QosProtocolWrapper.startQosServer(QosProtocolWrapper.java:95)
+	at com.alibaba.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:59)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:98)
+	at com.alibaba.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:513)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:358)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:317)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:216)
+	at com.alibaba.dubbo.config.spring.ServiceBean.export(ServiceBean.java:291)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:131)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:53)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at com.pccw.dubbo.util.BeanFactoryUtil.init(BeanFactoryUtil.java:17)
+	at com.pccw.dubbo.util.Launcher.main(Launcher.java:22)
+Caused by: java.lang.ClassNotFoundException: io.netty.channel.EventLoopGroup
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 22 more
+ INFO 01-04 11:52:56(AbstractServer.java:65):  [DUBBO] Start NettyServer bind /0.0.0.0:28080, export /192.168.56.1:28080, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:52:56(DubboShutdownHook.java:56):  [DUBBO] Run shutdown hook now., dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:52:56(AbstractRegistryFactory.java:64):  [DUBBO] Close all registries [], dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:52:56(DubboProtocol.java:432):  [DUBBO] Close dubbo server: /192.168.56.1:28080, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:52:56(AbstractServer.java:145):  [DUBBO] Close NettyServer bind /0.0.0.0:28080, export /192.168.56.1:28080, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:52:56(AbstractProtocol.java:76):  [DUBBO] Unexport service: dubbo://192.168.56.1:28080/com.pccw.dubbo.service.IUserService?anyhost=true&application=dubbodemo-provider&bean.name=com.pccw.dubbo.service.IUserService&bind.ip=192.168.56.1&bind.port=28080&dubbo=2.0.2&generic=false&interface=com.pccw.dubbo.service.IUserService&methods=login&pid=18344&revision=1.0-SNAPSHOT&side=provider&timeout=3000&timestamp=1546573975487, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 11:52:56(AbstractProtocol.java:76):  [DUBBO] Unexport service: injvm://127.0.0.1/com.pccw.dubbo.service.IUserService?anyhost=true&application=dubbodemo-provider&bean.name=com.pccw.dubbo.service.IUserService&bind.ip=192.168.56.1&bind.port=28080&dubbo=2.0.2&generic=false&interface=com.pccw.dubbo.service.IUserService&methods=login&pid=18344&revision=1.0-SNAPSHOT&side=provider&timeout=3000&timestamp=1546573975487, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:17:41(Launcher.java:21): 开始初始化core服务
+ INFO 01-04 15:17:41(AbstractApplicationContext.java:583): Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@72b6cbcc: startup date [Fri Jan 04 15:17:41 CST 2019]; root of context hierarchy
+ INFO 01-04 15:17:42(XmlBeanDefinitionReader.java:317): Loading XML bean definitions from class path resource [applicationContext.xml]
+ INFO 01-04 15:17:44(XmlBeanDefinitionReader.java:317): Loading XML bean definitions from class path resource [dubbo-provider.xml]
+ INFO 01-04 15:17:45(?:?): using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ WARN 01-04 15:17:46(SpringExtensionFactory.java:63):  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.56.1
+ WARN 01-04 15:17:46(SpringExtensionFactory.java:81):  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:17:47(ServiceBean.java:129):  [DUBBO] The service ready on spring started. service: com.pccw.dubbo.service.IUserService, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:17:48(ServiceConfig.java:539):  [DUBBO] Export dubbo service com.pccw.dubbo.service.IUserService to local registry, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:17:48(ServiceConfig.java:491):  [DUBBO] Export dubbo service com.pccw.dubbo.service.IUserService to url dubbo://192.168.56.1:28080/com.pccw.dubbo.service.IUserService?anyhost=true&application=dubbodemo-provider&bean.name=com.pccw.dubbo.service.IUserService&bind.ip=192.168.56.1&bind.port=28080&dubbo=2.0.2&generic=false&interface=com.pccw.dubbo.service.IUserService&methods=login&pid=15456&revision=1.0-SNAPSHOT&side=provider&timeout=3000&timestamp=1546586267672, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:17:48(ServiceConfig.java:501):  [DUBBO] Register dubbo service com.pccw.dubbo.service.IUserService url dubbo://192.168.56.1:28080/com.pccw.dubbo.service.IUserService?anyhost=true&application=dubbodemo-provider&bean.name=com.pccw.dubbo.service.IUserService&bind.ip=192.168.56.1&bind.port=28080&dubbo=2.0.2&generic=false&interface=com.pccw.dubbo.service.IUserService&methods=login&pid=15456&revision=1.0-SNAPSHOT&side=provider&timeout=3000&timestamp=1546586267672 to registry registry://localhost:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbodemo-provider&dubbo=2.0.2&pid=15456&registry=zookeeper&timestamp=1546586267642, dubbo version: 2.6.5, current host: 192.168.56.1
+ WARN 01-04 15:17:48(QosProtocolWrapper.java:101):  [DUBBO] Fail to start qos server: , dubbo version: 2.6.5, current host: 192.168.56.1
+java.lang.NoClassDefFoundError: io/netty/channel/EventLoopGroup
+	at com.alibaba.dubbo.qos.protocol.QosProtocolWrapper.startQosServer(QosProtocolWrapper.java:95)
+	at com.alibaba.dubbo.qos.protocol.QosProtocolWrapper.export(QosProtocolWrapper.java:59)
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:98)
+	at com.alibaba.dubbo.rpc.Protocol$Adaptive.export(Protocol$Adaptive.java)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:513)
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:358)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:317)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:216)
+	at com.alibaba.dubbo.config.spring.ServiceBean.export(ServiceBean.java:291)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:131)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:53)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:93)
+	at com.pccw.dubbo.util.BeanFactoryUtil.init(BeanFactoryUtil.java:17)
+	at com.pccw.dubbo.util.Launcher.main(Launcher.java:22)
+Caused by: java.lang.ClassNotFoundException: io.netty.channel.EventLoopGroup
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 22 more
+ INFO 01-04 15:17:49(AbstractServer.java:65):  [DUBBO] Start NettyServer bind /0.0.0.0:28080, export /192.168.56.1:28080, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:17:49(DubboShutdownHook.java:56):  [DUBBO] Run shutdown hook now., dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:17:49(AbstractRegistryFactory.java:64):  [DUBBO] Close all registries [], dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:17:49(DubboProtocol.java:432):  [DUBBO] Close dubbo server: /192.168.56.1:28080, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:17:49(AbstractServer.java:145):  [DUBBO] Close NettyServer bind /0.0.0.0:28080, export /192.168.56.1:28080, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:17:49(AbstractProtocol.java:76):  [DUBBO] Unexport service: dubbo://192.168.56.1:28080/com.pccw.dubbo.service.IUserService?anyhost=true&application=dubbodemo-provider&bean.name=com.pccw.dubbo.service.IUserService&bind.ip=192.168.56.1&bind.port=28080&dubbo=2.0.2&generic=false&interface=com.pccw.dubbo.service.IUserService&methods=login&pid=15456&revision=1.0-SNAPSHOT&side=provider&timeout=3000&timestamp=1546586267672, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:17:49(AbstractProtocol.java:76):  [DUBBO] Unexport service: injvm://127.0.0.1/com.pccw.dubbo.service.IUserService?anyhost=true&application=dubbodemo-provider&bean.name=com.pccw.dubbo.service.IUserService&bind.ip=192.168.56.1&bind.port=28080&dubbo=2.0.2&generic=false&interface=com.pccw.dubbo.service.IUserService&methods=login&pid=15456&revision=1.0-SNAPSHOT&side=provider&timeout=3000&timestamp=1546586267672, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:19:41(Launcher.java:21): 开始初始化core服务
+ INFO 01-04 15:19:42(AbstractApplicationContext.java:583): Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@72b6cbcc: startup date [Fri Jan 04 15:19:42 CST 2019]; root of context hierarchy
+ INFO 01-04 15:19:42(XmlBeanDefinitionReader.java:317): Loading XML bean definitions from class path resource [applicationContext.xml]
+ INFO 01-04 15:19:42(XmlBeanDefinitionReader.java:317): Loading XML bean definitions from class path resource [dubbo-provider.xml]
+ INFO 01-04 15:19:43(?:?): using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ WARN 01-04 15:19:44(SpringExtensionFactory.java:63):  [DUBBO] No spring extension (bean) named:defaultCompiler, try to find an extension (bean) of type java.lang.String, dubbo version: 2.6.5, current host: 192.168.56.1
+ WARN 01-04 15:19:44(SpringExtensionFactory.java:81):  [DUBBO] No spring extension (bean) named:defaultCompiler, type:java.lang.String found, stop get bean., dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:19:44(ServiceBean.java:129):  [DUBBO] The service ready on spring started. service: com.pccw.dubbo.service.IUserService, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:19:44(ServiceConfig.java:539):  [DUBBO] Export dubbo service com.pccw.dubbo.service.IUserService to local registry, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:19:44(ServiceConfig.java:491):  [DUBBO] Export dubbo service com.pccw.dubbo.service.IUserService to url dubbo://192.168.56.1:28080/com.pccw.dubbo.service.IUserService?anyhost=true&application=dubbodemo-provider&bean.name=com.pccw.dubbo.service.IUserService&bind.ip=192.168.56.1&bind.port=28080&dubbo=2.0.2&generic=false&interface=com.pccw.dubbo.service.IUserService&methods=login&pid=15336&revision=1.0-SNAPSHOT&side=provider&timeout=3000&timestamp=1546586384690, dubbo version: 2.6.5, current host: 192.168.56.1
+ INFO 01-04 15:19:44(ServiceConfig.java:501):  [DUBBO] Register dubbo service com.pccw.dubbo.service.IUserService url dubbo://192.168.56.1:28080/com.pccw.dubbo.service.IUserService?anyhost=true&application=dubbodemo-provider&bean.name=com.pccw.dubbo.service.IUserService&bind.ip=192.168.56.1&bind.port=28080&dubbo=2.0.2&generic=false&interface=com.pccw.dubbo.service.IUserService&methods=login&pid=15336&revision=1.0-SNAPSHOT&side=provider&timeout=3000&timestamp=1546586384690 to registry registry://localhost:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbodemo-provider&dubbo=2.0.2&pid=15336&registry=zookeeper&timestamp=1546586384672, dubbo version: 2.6.5, current host: 192.168.56.1
