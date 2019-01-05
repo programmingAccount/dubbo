@@ -1,13 +1,13 @@
-package com.pccw.dubbo.service;
+package com.pccw.dubbo.impl;
 
+import com.pccw.dubbo.service.IUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Service;
 
-@Service("userService")
-public class UserServiceImpl implements IUserService{
+//@Service("userService")
+public class UserServiceImpl implements IUserService {
+
     private Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
-
     public boolean login(String username, String password) {
         logger.info("用户登录：[username:{}, password:{}]", username, password);
         if (username != null && password != null && username.equals(password)) {
@@ -17,5 +17,4 @@ public class UserServiceImpl implements IUserService{
         logger.info("用户校验失败！[username:{}]", username);
         return false;
     }
-
 }
